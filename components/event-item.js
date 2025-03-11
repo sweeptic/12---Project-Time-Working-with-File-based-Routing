@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import classes from './event-item.module.css';
 import Button from './ui/button';
 import DateIcon from './icons/date-icon';
@@ -6,7 +5,7 @@ import AddressIcon from './icons/address-icon';
 import ArrowRightIcon from './icons/arrow-right-icon';
 
 export default function EventItem({ event }) {
-  const { id, image, title, description, date, location } = event;
+  const { id, image, title, date, location } = event;
 
   const formattedDate = new Date(date).toLocaleDateString('en-US', {
     day: 'numeric',
