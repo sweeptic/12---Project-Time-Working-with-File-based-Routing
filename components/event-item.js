@@ -16,7 +16,7 @@ export default function EventItem({ event }) {
 
   const formattedAddress = location.replace(', ', '\n');
 
-  const exploreLink = `/events/{$id}`;
+  const exploreLink = `/events/${id}`;
 
   return (
     <li key={id} className={classes.item}>
