@@ -9,7 +9,7 @@ export default function HomePage() {
     <div>
       <h1>Main page</h1>
       <div>
-        <EventList featuredEvents={featuredEvents} />{' '}
+        <EventList featuredEvents={featuredEvents} />
       </div>
     </div>
   );
