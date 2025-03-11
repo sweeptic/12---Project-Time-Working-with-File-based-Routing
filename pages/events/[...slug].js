@@ -13,8 +13,6 @@ export default function FilteredEventsPage() {
     return <p className="center">Loading...</p>;
   }
 
-  console.log('filterData', filterData);
-
   const yearNum = +filterData[0];
   const monthNum = +filterData[1];
 
