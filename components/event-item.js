@@ -19,7 +19,7 @@ export default function EventItem({ event }) {
 
   return (
     <li key={id} className={classes.item}>
-      <img src={image} alt={title} />
+      <img src={'/' + image} alt={title} />
       <div className={classes.content}>
         <div className={classes.summary}>
           <h2> {title}</h2>
